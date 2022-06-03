@@ -24,7 +24,7 @@ session_start();
         <meta content="MyShrt" property="og:title">
         <meta content="Raccourcisseur d'URL fait par Straky" property="og:description">
         <meta content="http://myshrt.tk" property="og:url">
-        <meta content="http://myshrt.tk/favicon.png" property="og:image">
+        <meta content="http://myshrt.tk/logo.png" property="og:image">
         <meta content="#414141" data-react-helmet="true" name="theme-color">
         <link rel="stylesheet" href="style.css" />
         <link rel="icon" type="image/png" href="favicon.png" />
