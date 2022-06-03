@@ -56,7 +56,7 @@ else {
     }
     else {
         //Définition d'un message d'alerte dans une variable de session
-        $_SESSION['message'] = "L'URL a déjà été attribuée à un lien";
+        $_SESSION['message'] = "Une erreur est survenue, veuillez réessayer<br><br>(L'URL a déjà été attribuée à un lien mais<br>ne peut pas être regénérée automatiquement)";
         //Redirection vers la page d'accueil
         header("Location: index.php");
     }
