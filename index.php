@@ -22,8 +22,7 @@ session_start();
         <meta charset="utf-8" />
         <title>MyShrt</title>
         <meta content="MyShrt" property="og:title">
-        <meta content="Raccourcisseur d'URL
-        fait par Straky" property="og:description">
+        <meta content="Raccourcisseur d'URL fait par Straky" property="og:description">
         <meta content="http://myshrt.tk" property="og:url">
         <meta content="http://myshrt.tk/logo.png" property="og:image">
         <meta content="#9b9b9b" data-react-helmet="true" name="theme-color">
