@@ -4,7 +4,7 @@ session_start();
 //Définition du lien entrée sur l'interface, dans una variable temporaire
 $link = $_POST['url'];
 
-//On vérifie si on a entré une url customisée
+//Si on a entré une url customisée
 if($_POST['custom'] != null) {
     //Définition de l'url customisée entrée sur l'interface, dans una variable temporaire
     $folder = $_POST['custom'];
@@ -32,6 +32,7 @@ if($_POST['custom'] != null) {
         header("Location: index.php");
     }
 }
+//Si on a pas entré d'url customisée
 else {
     //Définition d'une longeur aléatoire de caractères entre 4 et 8 dans une variable temporaire
     $length = rand(5, 9);
