@@ -50,7 +50,7 @@ else {
         //Définition de l'url de la page dans une variable
         $generate = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]" . "/" . $folder;
         //Définition d'un message d'alerte dans une variable de session
-        $_SESSION['message'] = "Votre lien généré est : ".$generate;
+        $_SESSION['message'] = "Votre lien généré est : <a href='".$generate."' target='_blank'>".$generate;
         header("Location: index.php");
     }
     else {
