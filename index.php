@@ -20,9 +20,9 @@ session_start();
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Raccourcisseur d'URL</title>
-        <meta content="Raccourcisseur d'URL" property="og:title">
-        <meta content="Par Straky" property="og:description">
+        <title>MyShrt</title>
+        <meta content="MyShrt" property="og:title">
+        <meta content="Raccourcisseur d'URL fait par Straky" property="og:description">
         <meta content="http://myshrt.tk" property="og:url">
         <meta content="http://myshrt.tk/favicon.png" property="og:image">
         <meta content="#414141" data-react-helmet="true" name="theme-color">
@@ -33,7 +33,7 @@ session_start();
 
     <body>
         <center>
-            <h1>Raccourcisseur d'URL 🔗</h1>
+            <h1>MyShrt 🔗</h1>
             <h3>Par <a href="https://github.com/Str4ky" target="_blank" style="color: white;">Straky</a> | <a href="https://github.com/Str4ky/url-shortener" target="_blank" style="color: white;">Code source</a></h3>
                 <br><br><br><br>
             <form method="post" action="create.php">
