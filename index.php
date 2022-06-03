@@ -26,7 +26,7 @@ session_start();
         fait par Straky" property="og:description">
         <meta content="http://myshrt.tk" property="og:url">
         <meta content="http://myshrt.tk/logo.png" property="og:image">
-        <meta content="#414141" data-react-helmet="true" name="theme-color">
+        <meta content="#9b9b9b" data-react-helmet="true" name="theme-color">
         <link rel="stylesheet" href="style.css" />
         <link rel="icon" type="image/png" href="favicon.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
