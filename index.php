@@ -23,8 +23,8 @@ session_start();
         <title>Raccourcisseur d'URL</title>
         <meta content="Raccourcisseur d'URL" property="og:title">
         <meta content="Par Straky" property="og:description">
-        <meta content="myshrt.tk" property="og:url">
-        <meta content="myshrt.tk/favicon.png" property="og:image">
+        <meta content="http://myshrt.tk" property="og:url">
+        <meta content="http://myshrt.tk/favicon.png" property="og:image">
         <meta content="#6534C0" data-react-helmet="true" name="theme-color">
         <link rel="stylesheet" href="style.css" />
         <link rel="icon" type="image/png" href="favicon.png" />
