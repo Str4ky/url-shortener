@@ -33,7 +33,7 @@ if($_POST['custom'] != null) {
     }
 }
 else {
-    //Définition d'une longeur de caractères dans une variable temporaire
+    //Définition d'une longeur aléatoire de caractères entre 4 et 8 dans une variable temporaire
     $length = rand(5, 9);
     //Définition d'un texte aléatoire (url du site), dans une variable temporaire
     $folder = bin2hex(random_bytes(($length-($length%2))/2));
