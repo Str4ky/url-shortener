@@ -1,2 +1,2 @@
-# url-shortener
-Raccourcisseur d'URL fait en PHP
+# URL Shortener
+Raccourcisseur d'URL fait en PHP pour le fun
