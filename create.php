@@ -42,7 +42,7 @@ else {
     //Définition d'un texte aléatoire (url du site), dans une variable temporaire
     $folder = bin2hex(random_bytes(($length-($length%2))/2));
 
-     //Si le dossier (url du site) n'existe pas
+    //Si le dossier (url du site) n'existe pas
     if(!is_dir($folder)) {
         //Création du dossier (url du site)
         mkdir($folder);
