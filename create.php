@@ -25,6 +25,7 @@ if($_POST['custom'] != null) {
         //Redirection vers la page d'accueil
         header("Location: index.php");
     }
+    //Si le dossier (url du site) existe
     else {
         //Définition d'un message d'alerte dans une variable de session
         $_SESSION['message'] = "L'URL a déjà été attribuée à un lien";
@@ -34,6 +35,8 @@ if($_POST['custom'] != null) {
 }
 //Si on a pas entré d'url customisée
 else {
+    //Définition d'une fonction
+    start:
     //Définition d'une longeur aléatoire de caractères entre 4 et 8 dans une variable temporaire
     $length = rand(5, 9);
     //Définition d'un texte aléatoire (url du site), dans une variable temporaire
@@ -54,11 +57,10 @@ else {
         $_SESSION['message'] = "Votre lien généré est : <a href='".$generate."' target='_blank'>".$generate;
         header("Location: index.php");
     }
+    //Si le dossier (url du site) existe
     else {
-        //Définition d'un message d'alerte dans une variable de session
-        $_SESSION['message'] = "Une erreur est survenue, veuillez réessayer<br><br>(L'URL a déjà été attribuée à un lien mais<br>ne peut pas être regénérée automatiquement)";
-        //Redirection vers la page d'accueil
-        header("Location: index.php");
+        //Saut vers l'instruction de génération de dossier (url di site) et de création de la redirection
+        goto start;
     }
 }
 ?>
