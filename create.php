@@ -55,6 +55,7 @@ else {
         $generate = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]" . "/" . $folder;
         //Définition d'un message d'alerte dans une variable de session
         $_SESSION['message'] = "Votre lien généré est : <a href='".$generate."' target='_blank'>".$generate;
+        //Redirection vers la page d'accueil
         header("Location: index.php");
     }
     //Si le dossier (url du site) existe
