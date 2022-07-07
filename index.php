@@ -46,7 +46,7 @@ session_start();
                     <input type="text" name="custom" id="custom" placeholder="Entrez une URL personnalisée" class="text" />
                 <br><br>
                     <!-- Bouton de génération -->
-                    <button type="submit" class="button">🔗 Générer votre lien</button>
+                    <button type="submit" class="button blue">🔗 Générer votre lien</button>
             </form>
             <br><br>
             <?php
