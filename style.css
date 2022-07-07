@@ -25,7 +25,6 @@
     margin: 5px 0 22px 0;
     border: none;
     color: white;
-    background-color: #0439aa;
     transition: 0.2s;
     border-radius: 8px;
 }
@@ -34,7 +33,30 @@
     cursor: pointer;
     outline: none;
     color: white;
-    background-color: #154bc0;
     transition: 0.2s;
     border-radius: 8px;
+}
+
+.blue {
+    background-color: #0439aa;
+}
+
+.blue:hover {
+    background-color: #154bc0;
+}
+
+.purple {
+    background-color: #6432be;
+}
+
+.purple:hover {
+    background-color: #6f43c9;
+}
+
+.red {
+    background-color: #b91a1c;
+}
+
+.red:hover {
+    background-color: #c9393a;
 }
