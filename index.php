@@ -52,6 +52,16 @@ session_start();
             <?php
             //Affichage d'un message d'alerte
             echo $message;
+         
+            //Déclaration d"une variable du nom de l'hôte
+            $host = $_SERVER['REMOTE_ADDR'];
+            //Décodage d'une valeur en base64 pôur la vérification de l'hôte
+            $verif = votre_ip;
+            //Si le nom d'hôte est égal à celui du développeur
+            if ($host == $verif) {
+                //Affichage d'un bouton d'administration
+                echo "<a href='admin.php' class='button purple' style='text-decoration: none;'>🔧 Administration</a>";
+            }
             ?>
         </center>
     </body>
