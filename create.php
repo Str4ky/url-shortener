@@ -60,7 +60,7 @@ else {
     }
     //Si le dossier (url du site) existe
     else {
-        //Saut vers l'instruction de génération de dossier (url di site) et de création de la redirection
+        //Saut vers l'instruction de génération de dossier (url du site) et de création de la redirection
         goto start;
     }
 }
