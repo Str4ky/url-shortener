@@ -18,5 +18,9 @@ Ouvrez le fichier "style.css" et rajoutez une couleur, voici un exemple de coule
 .black {
 background-color: #000000;
 }
+
+.black:hover {
+background-color: #0f0f0f;
+}
 ```
 Et remplacez la couleur du bouton dans les pages "index.php" et "admin.php" en changeant la couleur après le "button" dans le paramètre "class" de la balise \<a> et \<button>
