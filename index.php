@@ -9,7 +9,7 @@ session_start();
     $_SESSION['message'] = "";
  }
  else {
-     //Initialisation d'une variable temporaire
+    //Initialisation d'une variable temporaire
     $message = "";
     //Initialisation d'une variable de session
     $_SESSION['message'] = "";
