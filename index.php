@@ -3,7 +3,7 @@
 session_start();
 //Vérification de l'existence d'une variable de session
  if(isset($_SESSION['message'])) {
-     //Définition d'une variable temporaire, ou son contenu est égal à la variable de session
+    //Définition d'une variable temporaire, ou son contenu est égal à la variable de session
     $message = $_SESSION['message'];
     //Suppression du contenu de la variable de session
     $_SESSION['message'] = "";
