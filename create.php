@@ -1,12 +1,12 @@
 <?php
 //Initialisation de la sesion
 session_start();
-//Définition du lien entrée sur l'interface, dans una variable temporaire
+//Définition du lien entrée sur l'interface, dans une variable temporaire
 $link = $_POST['url'];
 
 //Si on a entré une url customisée
 if($_POST['custom'] != null) {
-    //Définition de l'url customisée entrée sur l'interface, dans una variable temporaire
+    //Définition de l'url customisée entrée sur l'interface, dans une variable temporaire
     $folder = $_POST['custom'];
 
     //Si le dossier (url du site) n'existe pas
@@ -16,7 +16,7 @@ if($_POST['custom'] != null) {
         //Définition du fichier pour la redirection puis le créer
         $file = $folder."/index.php";
         touch($file);
-        //Rajout dans le ficier index, le code de la redirection
+        //Rajout dans le fichier index, le code de la redirection
         file_put_contents($file, "<?php\nheader('Location: ".$link."')\n?>')");
         //Définition de l'url de la page dans une variable
         $generate = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]" . "/" . $folder;
@@ -49,7 +49,7 @@ else {
         //Définition du fichier pour la redirection puis le créer
         $file = $folder."/index.php";
         touch($file);
-        //Rajout dans le ficier index, le code de la redirection
+        //Rajout dans le fichier index, le code de la redirection
         file_put_contents($file, "<?php\nheader('Location: ".$link."')\n?>')");
         //Définition de l'url de la page dans une variable
         $generate = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]" . "/" . $folder;
