@@ -1,8 +1,8 @@
 <?php
 //Initialisation de la sesion
 session_start();
-//Définition du lien entrée sur l'interface, dans une variable temporaire
-$link = $_POST['url'];
+//Définition et encodage du lien entrée sur l'interface, dans une variable temporaire
+$link = htmlentities($_POST['url'], ENT_QUOTES, 'UTF-8');
 
 //Si on a entré une url customisée
 if($_POST['custom'] != null) {
