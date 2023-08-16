@@ -1,5 +1,5 @@
 # URL Shortener
-Raccourcisseur d'URL fait en PHP pour le fun, <a href="http://myshrt.tk">démo ici</a>
+Raccourcisseur d'URL fait en PHP pour le fun
 
 <img src="https://i.imgur.com/sW2bopp.png">
 
